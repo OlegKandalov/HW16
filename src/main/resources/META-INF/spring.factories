@@ -1,3 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.cursor.homework16.properties.MyAutoConfigForClassPath, \
-com.cursor.homework16.properties.MyConfigForProperty
+com.cursor.homework16.properties.AutoConfigForClassPath, \
+com.cursor.homework16.properties.AutoConfigForProperty

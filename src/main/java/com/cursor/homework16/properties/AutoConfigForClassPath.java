@@ -6,8 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ConditionalOnClass({ConfigurationEnabler.class})
-public class MyAutoConfigForClassPath {
-   public MyAutoConfigForClassPath() {
-       System.out.println("I am auto-configuration with the condition - class in classpath");
+public class AutoConfigForClassPath {
+   public AutoConfigForClassPath() {
    }
 }
